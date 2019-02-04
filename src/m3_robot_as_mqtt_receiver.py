@@ -14,7 +14,7 @@ class DelegateThatReceives(object):
     def forward(self, left, right):
         print('Left: ', left)
         print('Right: ', right)
-
+        
 
 
 def main():
